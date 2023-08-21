@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".IndianRailwayCentralDepartmentSignUpActivity">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="22dp"
+        android:id="@+id/txtCategoryIndianRailwayCentral"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCategoryIndianRailwayCentral"
+        android:layout_alignTop="@+id/txtCategoryIndianRailwayCentral"
+        android:layout_toRightOf="@+id/txtCategoryIndianRailwayCentral"
+        android:layout_marginLeft="92dp"
+        android:layout_marginStart="92dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtDepartmentIndianRailwayCentral"
+        android:layout_below="@+id/spinnerCategoryIndianRailwayCentral"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerDepartmentIndianRailwayCentral"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/spinnerCategoryIndianRailwayCentral"
+        android:layout_alignLeft="@+id/spinnerCategoryIndianRailwayCentral"
+        android:layout_alignStart="@+id/spinnerCategoryIndianRailwayCentral" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade Pay"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtGradePayIndianRailwayCentral"
+        android:layout_below="@+id/spinnerDepartmentIndianRailwayCentral"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerGradePayIndianRailwayCentral"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/spinnerDepartmentIndianRailwayCentral"
+        android:layout_alignLeft="@+id/spinnerDepartmentIndianRailwayCentral"
+        android:layout_alignStart="@+id/spinnerDepartmentIndianRailwayCentral" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Pay"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtBasicPayIndianRailwayCentral"
+        android:layout_below="@+id/spinnerGradePayIndianRailwayCentral"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtBasicPayIndianRailwayCentral"
+        android:hint="Basic Pay"
+        android:numeric="integer"
+        android:layout_below="@+id/spinnerGradePayIndianRailwayCentral"
+        android:layout_alignLeft="@+id/spinnerGradePayIndianRailwayCentral"
+        android:layout_alignStart="@+id/spinnerGradePayIndianRailwayCentral"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointment Date"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtAppointedDateIndianRailwayCentral"
+        android:layout_below="@+id/edtBasicPayIndianRailwayCentral"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAppointedDateIndianRailwayCentral"
+        android:hint="dd/mm/yyyy"
+        android:layout_below="@+id/edtBasicPayIndianRailwayCentral"
+        android:layout_alignLeft="@+id/edtBasicPayIndianRailwayCentral"
+        android:layout_alignStart="@+id/edtBasicPayIndianRailwayCentral"
+        android:layout_alignRight="@+id/edtBasicPayIndianRailwayCentral"
+        android:layout_alignEnd="@+id/edtBasicPayIndianRailwayCentral" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designation"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtDesignationIndianRailwayCentral"
+        android:layout_below="@+id/edtAppointedDateIndianRailwayCentral"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/spinnerDesignationIndianRailwayCentral"
+        android:layout_below="@+id/edtAppointedDateIndianRailwayCentral"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/edtAppointedDateIndianRailwayCentral"
+        android:layout_alignStart="@+id/edtAppointedDateIndianRailwayCentral" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Railway Zone"
+        android:textSize="22dp"
+        android:id="@+id/txtRailwayZoneIndianRailwayCentral"
+        android:layout_below="@+id/spinnerDesignationIndianRailwayCentral"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerRailwayDivisionIndianRailwayCentral"
+        android:layout_alignLeft="@+id/spinnerDesignationIndianRailwayCentral"
+        android:layout_alignStart="@+id/spinnerDesignationIndianRailwayCentral"
+        android:layout_alignTop="@+id/txtRailwayDivisionIndianRailwayCentral" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Railway Division"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtRailwayDivisionIndianRailwayCentral"
+        android:layout_below="@+id/txtRailwayZoneIndianRailwayCentral"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerRailwayZoneIndianRailwayCentral"
+        android:layout_alignLeft="@+id/spinnerRailwayDivisionIndianRailwayCentral"
+        android:layout_alignStart="@+id/spinnerRailwayDivisionIndianRailwayCentral"
+        android:layout_alignTop="@+id/txtRailwayZoneIndianRailwayCentral" />
+
+    <Button
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="400dp"
+        android:background="#66ef66"
+        android:textColor="#ffffff"
+        android:id="@+id/btnNextIndianRailwayCentralSignUpActivity"
+        android:layout_gravity="center_horizontal" />
+</RelativeLayout>
+
+

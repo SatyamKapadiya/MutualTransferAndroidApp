@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.om.mutualtransferdemo.KarnatakaPrimarySchoolStateDepartmentActivity">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="School / Office Selection"
+        android:id="@+id/txtSchoolOfficeSelectionKarnataka"
+        android:textSize="22dp"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="#66ef66"
+        android:textColor="#ffffff"
+        android:id="@+id/btnNextKarnatakaPrimarySignUpActivity"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerSchoolOfficeSelectionKarnataka"
+        android:layout_alignTop="@+id/txtSchoolOfficeSelectionKarnataka"
+        android:layout_toRightOf="@+id/txtSchoolOfficeSelectionKarnataka"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_alignBottom="@+id/txtSchoolOfficeSelectionKarnataka"
+        android:layout_alignRight="@+id/btnNextKarnatakaPrimarySignUpActivity"
+        android:layout_alignEnd="@+id/btnNextKarnatakaPrimarySignUpActivity" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designation"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtDesignationKarnataka"
+        android:layout_below="@+id/txtSchoolOfficeSelectionKarnataka"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/spinnerSchoolOfficeSelectionKarnataka"
+        android:layout_toStartOf="@+id/spinnerSchoolOfficeSelectionKarnataka" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerDesignationKarnataka"
+        android:layout_alignLeft="@+id/spinnerSchoolOfficeSelectionKarnataka"
+        android:layout_alignStart="@+id/spinnerSchoolOfficeSelectionKarnataka"
+        android:layout_alignBottom="@+id/txtDesignationKarnataka"
+        android:layout_alignTop="@+id/txtDesignationKarnataka"
+        android:layout_alignRight="@+id/btnNextKarnatakaPrimarySignUpActivity"
+        android:layout_alignEnd="@+id/btnNextKarnatakaPrimarySignUpActivity" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:layout_marginTop="20dp"
+        android:textSize="22dp"
+        android:id="@+id/txtSubjectKaranatakaPrimary"
+        android:layout_below="@+id/txtDesignationKarnataka"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/txtDesignationKarnataka"
+        android:layout_alignEnd="@+id/txtDesignationKarnataka" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerSubjectKaranatakaPrimary"
+        android:layout_alignTop="@+id/txtSubjectKaranatakaPrimary"
+        android:layout_alignLeft="@+id/spinnerDesignationKarnataka"
+        android:layout_alignStart="@+id/spinnerDesignationKarnataka"
+        android:layout_alignBottom="@+id/txtSubjectKaranatakaPrimary"
+        android:layout_alignRight="@+id/btnNextKarnatakaPrimarySignUpActivity"
+        android:layout_alignEnd="@+id/btnNextKarnatakaPrimarySignUpActivity" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appointed under which scheme"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtAppointedKarnataka"
+        android:layout_below="@+id/txtSubjectKaranatakaPrimary"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/spinnerAppointedKarnataka"
+        android:layout_toStartOf="@+id/spinnerAppointedKarnataka" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/spinnerAppointedKarnataka"
+        android:layout_below="@+id/spinnerSubjectKaranatakaPrimary"
+        android:layout_alignLeft="@+id/spinnerSubjectKaranatakaPrimary"
+        android:layout_alignStart="@+id/spinnerSubjectKaranatakaPrimary"
+        android:layout_alignBottom="@+id/txtAppointedKarnataka"
+        android:layout_alignRight="@+id/spinnerSubjectKaranatakaPrimary"
+        android:layout_alignEnd="@+id/spinnerSubjectKaranatakaPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="District"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtDistrictKranataka"
+        android:layout_below="@+id/txtAppointedKarnataka"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/txtSubjectKaranatakaPrimary"
+        android:layout_alignEnd="@+id/txtSubjectKaranatakaPrimary" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerDistrictKranataka"
+        android:layout_toRightOf="@+id/txtAppointedKarnataka"
+        android:layout_alignTop="@+id/txtDistrictKranataka"
+        android:layout_alignRight="@+id/spinnerAppointedKarnataka"
+        android:layout_alignEnd="@+id/spinnerAppointedKarnataka" />
+
+
+    <!--   <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Appointed under which scheme"
+           android:textSize="22dp"
+           android:id="@+id/txtAppointedKaranataka"
+           android:layout_centerVertical="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_toLeftOf="@+id/spinnerDesignationKarnataka"
+           android:layout_toStartOf="@+id/spinnerDesignationKarnataka" />
+
+
+
+       <Spinner
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/spinnerAppointedKarnataka"
+           android:layout_alignLeft="@+id/spinnerDesignationKarnataka"
+           android:layout_alignStart="@+id/spinnerDesignationKarnataka"
+           android:layout_alignRight="@+id/spinnerDesignationKarnataka"
+           android:layout_alignEnd="@+id/spinnerDesignationKarnataka"
+           android:layout_alignTop="@+id/txtAppointedKaranataka"
+           android:layout_alignBottom="@+id/txtAppointedKaranataka" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="District"
+           android:textSize="22dp"
+           android:layout_marginTop="20dp"
+           android:id="@+id/txtDistrictKranataka"
+           android:layout_below="@+id/txtAppointedKaranataka"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_alignRight="@+id/txtDesignationKarnataka"
+           android:layout_alignEnd="@+id/txtDesignationKarnataka" />
+
+       <Spinner
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:id="@+id/spinnerDistrictKarnataka"
+           android:layout_toRightOf="@+id/txtAppointedKaranataka"
+           android:layout_below="@+id/txtAppointedKaranataka"
+           android:layout_alignRight="@+id/spinnerAppointedKarnataka"
+           android:layout_alignEnd="@+id/spinnerAppointedKarnataka"
+           android:layout_alignBottom="@+id/txtDistrictKranataka" />
+
+   -->
+</RelativeLayout>

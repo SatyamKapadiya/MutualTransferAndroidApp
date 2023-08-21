@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.om.mutualtransferdemo.ContactActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgContact"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#ff69b4"
+        android:textSize="20dp"
+        android:id="@+id/txtNameContact"
+        android:layout_below="@+id/imgContact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MobileNo: "
+        android:layout_marginTop="7dp"
+        android:textColor="#ff69b4"
+        android:textSize="20dp"
+        android:id="@+id/txtMobileNoContact"
+        android:layout_below="@+id/txtNameContact"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:layout_marginTop="7dp"
+        android:textSize="20dp"
+        android:textColor="#ff69b4"
+        android:id="@+id/txtEmailContact"
+        android:layout_below="@+id/txtMobileNoContact"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtDepartment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtEmailContact"
+        android:layout_alignRight="@+id/txtDesignationContact"
+        android:layout_alignEnd="@+id/txtDesignationContact" />
+        <!--android:layout_toStartOf="@+id/txtDepartmentName"-->
+        <!--android:layout_alignRight="@+id/txtDesignationName"-->
+        <!--android:layout_alignEnd="@+id/txtDesignationName"-->
+    <!--android:layout_toStartOf="@+id/txtEmailContact"-->
+        <!--android:layout_alignRight="@+id/txtMobileNoContact"-->
+        <!--android:layout_alignEnd="@+id/txtMobileNoContact" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#0086b3"
+        android:id="@+id/txtDepartmentName"
+        android:layout_below="@+id/txtEmailContact"
+        android:layout_alignLeft="@+id/imgContact"
+        android:layout_alignStart="@+id/imgContact" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:textSize="17dp"
+        android:text="Designation"
+        android:id="@+id/txtDesignationContact"
+        android:layout_below="@+id/txtDepartment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignRight="@+id/txtMobileNoContact"
+        android:layout_alignEnd="@+id/txtMobileNoContact" />
+    <!--android:layout_toStartOf="@+id/txtDesignationName"-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="17dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#ff69b4"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/txtDesignationName"
+        android:layout_below="@+id/txtDepartmentName"
+        android:layout_alignLeft="@+id/txtDepartmentName"
+        android:layout_alignStart="@+id/txtDepartmentName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textSize="18dp"
+        android:id="@+id/btnContact"
+        android:background="#66ef66"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

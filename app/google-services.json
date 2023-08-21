@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "777294285164",
+    "firebase_url": "https://mutualtrasnferde-1552997532763.firebaseio.com",
+    "project_id": "mutualtrasnferde-1552997532763",
+    "storage_bucket": "mutualtrasnferde-1552997532763.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777294285164:android:d6e21a056395ff9e",
+        "android_client_info": {
+          "package_name": "com.example.om.mutualtransferdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777294285164-t1gljc1rffnc1c85rdtvb697kn5ptkbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.om.mutualtransferdemo",
+            "certificate_hash": "efb64e689c877509556cafc433d4ba0bb996debc"
+          }
+        },
+        {
+          "client_id": "777294285164-8jhh8hlnabe6dg66v3f54c4iao601ok8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj9Kx6MiLx_IDIuIGhCCAtYrtGRzTCsRs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777294285164-8jhh8hlnabe6dg66v3f54c4iao601ok8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

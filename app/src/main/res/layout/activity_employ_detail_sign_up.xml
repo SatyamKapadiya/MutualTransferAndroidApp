@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.om.mutualtransferdemo.EmployDetailSignUpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Employment Details"
+        android:textSize="22dp"
+        android:id="@+id/txtEmpSignUpActivity"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Central Or State"
+        android:textSize="22dp"
+        android:id="@+id/txtCentralEmpSignUpActivity"
+        android:layout_below="@+id/txtEmpSignUpActivity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCentralEmpSignUpActivity"
+        android:layout_below="@+id/txtCentralEmpSignUpActivity"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State"
+        android:textSize="22dp"
+        android:id="@+id/txtStateEmpSignUpActivity"
+        android:layout_below="@+id/spinnerCentralEmpSignUpActivity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerStateEmpSignUpActivity"
+        android:layout_below="@+id/txtStateEmpSignUpActivity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textSize="22dp"
+        android:id="@+id/txtDepartmentEmpSignUpActvity"
+        android:layout_below="@+id/spinnerStateEmpSignUpActivity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerDepartmentEmpSignUpActivity"
+        android:layout_below="@+id/txtDepartmentEmpSignUpActvity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="#66ef66"
+        android:textColor="#ffffff"
+        android:id="@+id/btnNextEmpSignUpActivity"
+        android:layout_below="@+id/spinnerDepartmentEmpSignUpActivity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
+
+ <!--   <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/btnNextEmpSignUpActivity"
+        android:background="#66ef66"
+        android:textColor="#ffffff"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/spinnerDepartmentEmpSignUpActivity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/spinnerDepartmentEmpSignUpActivity"
+        android:layout_alignEnd="@+id/spinnerDepartmentEmpSignUpActivity" />
+
+
+      <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Department"
+           android:textSize="22dp"
+           android:id="@+id/txtDepartmentEmpSignUpActvity"
+           android:layout_below="@+id/spinnerCentralEmpSignUpActivity"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true" />
+
+       <Spinner
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/spinnerDepartmentEmpSignUpActivity"
+           android:layout_below="@+id/txtDepartmentEmpSignUpActvity"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentEnd="true" />
+
+       <Button
+           android:layout_width="345dp"
+           android:layout_height="wrap_content"
+           android:text="Next"
+           android:background="#66ef66"
+           android:textColor="#ffffff"
+           android:id="@+id/btnNextEmpSignUpActivity"
+           android:layout_below="@+id/spinnerDepartmentEmpSignUpActivity"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_marginTop="23dp" />
+   -->
+
+</RelativeLayout>

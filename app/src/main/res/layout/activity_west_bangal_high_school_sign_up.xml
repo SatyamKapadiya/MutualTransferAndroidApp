@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.om.mutualtransferdemo.WestBangalHighSchoolSignUpActivity">
+
+  <!--  <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="School Type"
+        android:id="@+id/txtSchoolTypeHighSchoolWestBangal"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+-->
+
+   <Button
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="#66ef66"
+        android:textColor="#ffffff"
+        android:id="@+id/btnNextHighSchoolWestBangal"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+<!--    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerSchoolTypeHighSchoolWestBangal"
+        android:layout_alignTop="@+id/txtSchoolTypeHighSchoolWestBangal"
+        android:layout_toRightOf="@+id/txtSchoolTypeHighSchoolWestBangal"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_alignBottom="@+id/txtSchoolTypeHighSchoolWestBangal"
+        android:layout_alignRight="@+id/btnNextHighSchoolWestBangal"
+        android:layout_alignEnd="@+id/btnNextHighSchoolWestBangal" />
+        -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current District"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtCurrentDistrictHighSchoolWestBangal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCurrentDistrictHighSchoolWestBangal"
+        android:layout_alignBottom="@+id/txtCurrentDistrictHighSchoolWestBangal"
+        android:layout_alignRight="@+id/btnNextHighSchoolWestBangal"
+        android:layout_alignEnd="@+id/btnNextHighSchoolWestBangal"
+        android:layout_alignTop="@+id/txtCurrentDistrictHighSchoolWestBangal"
+        android:layout_toRightOf="@+id/txtCurrentDistrictHighSchoolWestBangal"
+        android:layout_toEndOf="@+id/txtCurrentDistrictHighSchoolWestBangal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Commission"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtCommissionHighSchoolWestBangal"
+        android:layout_below="@+id/txtCurrentDistrictHighSchoolWestBangal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/txtCurrentDistrictHighSchoolWestBangal"
+        android:layout_alignEnd="@+id/txtCurrentDistrictHighSchoolWestBangal" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCommissionHighSchoolWestBangal"
+        android:layout_alignRight="@+id/spinnerCurrentDistrictHighSchoolWestBangal"
+        android:layout_alignEnd="@+id/spinnerCurrentDistrictHighSchoolWestBangal"
+        android:layout_alignTop="@+id/txtCommissionHighSchoolWestBangal"
+        android:layout_alignBottom="@+id/txtCommissionHighSchoolWestBangal"
+        android:layout_toRightOf="@+id/txtCommissionHighSchoolWestBangal"
+        android:layout_toEndOf="@+id/txtCommissionHighSchoolWestBangal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selection Category"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtSelectionCategoryHighSchoolWestBangal"
+        android:layout_below="@+id/txtCommissionHighSchoolWestBangal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/txtCommissionHighSchoolWestBangal"
+        android:layout_alignEnd="@+id/txtCommissionHighSchoolWestBangal" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerSelectionCategoryHighSchoolWestBangal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/spinnerCommissionHighSchoolWestBangal"
+        android:layout_alignLeft="@+id/spinnerCommissionHighSchoolWestBangal"
+        android:layout_alignStart="@+id/spinnerCommissionHighSchoolWestBangal"
+        android:layout_alignRight="@+id/spinnerCommissionHighSchoolWestBangal"
+        android:layout_alignEnd="@+id/spinnerCommissionHighSchoolWestBangal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtCategoryHighSchoolWestBangal"
+        android:layout_below="@+id/txtSelectionCategoryHighSchoolWestBangal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCategoryHighSchoolWestBangal"
+        android:layout_alignLeft="@+id/spinnerSelectionCategoryHighSchoolWestBangal"
+        android:layout_alignStart="@+id/spinnerSelectionCategoryHighSchoolWestBangal"
+        android:layout_alignRight="@+id/spinnerSelectionCategoryHighSchoolWestBangal"
+        android:layout_alignEnd="@+id/spinnerSelectionCategoryHighSchoolWestBangal"
+        android:layout_alignTop="@+id/txtCategoryHighSchoolWestBangal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textSize="22dp"
+        android:id="@+id/txtSubjectHighSchoolWestBangal"
+        android:layout_alignTop="@+id/spinnerSubjectHighSchoolWestBangal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerSubjectHighSchoolWestBangal"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/spinnerCategoryHighSchoolWestBangal"
+        android:layout_alignStart="@+id/spinnerCategoryHighSchoolWestBangal"
+        android:layout_below="@+id/spinnerCategoryHighSchoolWestBangal"
+        android:layout_alignRight="@+id/spinnerCategoryHighSchoolWestBangal"
+        android:layout_alignEnd="@+id/spinnerCategoryHighSchoolWestBangal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trained"
+        android:textSize="22dp"
+        android:id="@+id/txtTrainedHighSchoolWestBangal"
+        android:layout_alignTop="@+id/spinnerTrainedHighSchoolWestBangal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerTrainedHighSchoolWestBangal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/spinnerSubjectHighSchoolWestBangal"
+        android:layout_alignLeft="@+id/spinnerSubjectHighSchoolWestBangal"
+        android:layout_alignStart="@+id/spinnerSubjectHighSchoolWestBangal"
+        android:layout_alignRight="@+id/spinnerSubjectHighSchoolWestBangal"
+        android:layout_alignEnd="@+id/spinnerSubjectHighSchoolWestBangal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School Type"
+        android:textSize="22dp"
+        android:id="@+id/txtSchoolTypeCommonHighSchoolWestBangal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/spinnerSchoolTypeCommonHighSchoolWestBangal" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerSchoolTypeCommonHighSchoolWestBangal"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/spinnerTrainedHighSchoolWestBangal"
+        android:layout_alignStart="@+id/spinnerTrainedHighSchoolWestBangal"
+        android:layout_below="@+id/spinnerTrainedHighSchoolWestBangal"
+        android:layout_alignRight="@+id/spinnerTrainedHighSchoolWestBangal"
+        android:layout_alignEnd="@+id/spinnerTrainedHighSchoolWestBangal" />
+
+</RelativeLayout>
